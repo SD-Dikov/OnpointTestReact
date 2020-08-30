@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url("../../fonts/GothamPro.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url("../../fonts/GothamPro-Light.woff") format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../../fonts/Lato-Regular.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.date-range {
+  position: absolute;
+  top: 682px;
+  left: 192px;
+  width: auto;
+  height: 86px;
+}
+
+.date-range__input {
+  -webkit-appearance: none;
+  width: 654px;
+  height: 11px;
+  background: linear-gradient(90deg, transparent 1%, #d1eaff 1%, #435063 1%, #435063 1%, #435063 98%, transparent 98%);
+  margin-bottom: 29px;
+  margin-left: -3px;
+  transition: all 1s linear;
+}
+
+.date-range__text-block {
+  width: 645px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.date-range__input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 44px;
+  height: 56px;
+  background-image: url("../../img/ice_pin.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  cursor: pointer;
+}

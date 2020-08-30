@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url("../../fonts/GothamPro.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url("../../fonts/GothamPro-Light.woff") format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../../fonts/Lato-Regular.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.slide {
+  width: 1024px;
+  height: 768px;
+}
+
+.slide--one {
+  background-image: url("../../img/sl1_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding-top: 134px;
+}
+
+.slide--one .slide__title {
+  margin-left: 70px;
+  width: 750px;
+  color: #0d319c;
+  font-style: normal;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: -0.5px;
+}
+
+.purposes-list {
+  display: block;
+  position: relative;
+  width: inherit;
+  height: 430px;
+}
+
+.purposes-list__item {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  color: #0d319c;
+  font-family: "Lato", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+
+.purposes-list__item--hba1c {
+  top: 7px;
+  left: 561px;
+}
+
+.purposes-list__item--hba1c .pulse-dot {
+  margin-right: 10px;
+}
+
+.purposes-list__item--hipo {
+  flex-direction: column-reverse;
+  top: 144px;
+  left: 224px;
+}
+
+.purposes-list__item--hipo .pulse-dot {
+  width: 31px;
+  height: 31px;
+}
+
+.purposes-list__item--hipo span {
+  margin-bottom: 8px;
+}
+
+.purposes-list__item--sequela {
+  flex-direction: column-reverse;
+  top: 254px;
+  left: 370px;
+}
+
+.purposes-list__item--sequela .pulse-dot {
+  align-self: flex-end;
+  margin-right: 26px;
+  width: 21px;
+  height: 21px;
+}
+
+.purposes-list__item--sequela span {
+  margin-bottom: 9px;
+}
+
+.purposes-list__item--risk {
+  flex-direction: column-reverse;
+  top: 235px;
+  left: 788px;
+}
+
+.purposes-list__item--risk .pulse-dot {
+  width: 21px;
+  height: 21px;
+}
+
+.purposes-list__item--risk span {
+  margin-bottom: 6px;
+}

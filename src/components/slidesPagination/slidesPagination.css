@@ -1,0 +1,28 @@
+
+.slides-pagination {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 353px;
+  right: 29px;
+}
+
+.slides-pagination__item {
+  width: 13px;
+  height: 13px;
+  margin-bottom: 7px;
+}
+
+.slides-pagination__item a {
+  display: block;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  transition: .5s linear;
+}
+
+.slides-pagination__item .slides-current {
+  background-color: #f78b1f;
+  transition: .5s linear;
+}

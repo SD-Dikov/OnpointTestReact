@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url("../../fonts/GothamPro.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url("../../fonts/GothamPro-Light.woff") format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../../fonts/Lato-Regular.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.slide {
+  width: 1024px;
+  height: 768px;
+}
+
+.slide--three {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../../img/sl3_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.infographics-list {
+  display: block;
+  width: 1024px;
+  height: 768px;
+  background-image: url("../../img/sl3_inf_bg.png");
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  transition: background-position .5s linear;
+}

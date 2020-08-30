@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url("../../fonts/GothamPro.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url("../../fonts/GothamPro-Light.woff") format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url("../../fonts/Lato-Regular.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.slide {
+  width: 1024px;
+  height: 768px;
+}
+
+.slide--two {
+  background-image: url("../../img/sl2_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.slide--two .slide__wrapper {
+  position: relative;
+  top: 384px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 684px;
+  background-image: url("../../img/sl2_ice.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.slide--two .slide__title {
+  margin-top: -76px;
+  text-align: center;
+  width: 470px;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: -0.5px;
+}
